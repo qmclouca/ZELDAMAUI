@@ -1,0 +1,8 @@
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\actool\_PartialAppManifest.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\actool\_BundleResourceWithLogicalName.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\actool\_ProcessedImageAssetsPath.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\coremlc\_PartialAppManifest.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\_ProcessedBundleResourcesPath.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\_ProcessedContentPath.items

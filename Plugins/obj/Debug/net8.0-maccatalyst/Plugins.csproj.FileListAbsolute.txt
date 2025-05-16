@@ -1,0 +1,8 @@
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-maccatalyst\actool\_PartialAppManifest.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-maccatalyst\actool\_BundleResourceWithLogicalName.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-maccatalyst\actool\_ProcessedImageAssetsPath.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-maccatalyst\coremlc\_PartialAppManifest.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-maccatalyst\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-maccatalyst\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-maccatalyst\_ProcessedBundleResourcesPath.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-maccatalyst\_ProcessedContentPath.items

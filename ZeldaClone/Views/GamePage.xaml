@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZeldaClone.Views.GamePage"
+             Title="GamePage">
+    <GraphicsView x:Name="gameView"
+                  Drawable="{Binding GameDrawable}"
+                  HeightRequest="400"
+                  WidthRequest="400" />
+</ContentPage>

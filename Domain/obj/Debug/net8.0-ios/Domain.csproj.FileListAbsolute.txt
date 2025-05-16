@@ -1,0 +1,15 @@
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\actool\_PartialAppManifest.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\actool\_BundleResourceWithLogicalName.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\actool\_ProcessedImageAssetsPath.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\coremlc\_PartialAppManifest.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\_ProcessedBundleResourcesPath.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\_ProcessedContentPath.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\Domain.csproj.AssemblyReference.cache
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\Domain.AssemblyInfoInputs.cache
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\Domain.AssemblyInfo.cs
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\Domain.csproj.CoreCompileInputs.cache
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\Domain.sourcelink.json
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\build-signature\signature

@@ -1,11 +1,13 @@
-﻿namespace ZeldaClone;
+﻿using Domain.Interfaces;
+
+namespace ZeldaClone;
 
 public partial class App : Application
 {
-	public App()
-	{
-		InitializeComponent();
+    public App(IDatabaseService databaseService)
+    {
+        InitializeComponent();
 
-		MainPage = new AppShell();
-	}
+        MainPage = new ZeldaClone.Views.GamePage(databaseService);
+    }
 }

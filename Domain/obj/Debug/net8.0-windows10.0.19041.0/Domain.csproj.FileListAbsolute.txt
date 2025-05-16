@@ -1,0 +1,6 @@
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-windows10.0.19041.0\Domain.csproj.AssemblyReference.cache
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-windows10.0.19041.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-windows10.0.19041.0\Domain.AssemblyInfoInputs.cache
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-windows10.0.19041.0\Domain.AssemblyInfo.cs
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-windows10.0.19041.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-windows10.0.19041.0\Domain.sourcelink.json

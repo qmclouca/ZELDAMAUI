@@ -19,5 +19,18 @@ namespace Domain.Entities
             SpriteSheet = ImageSource.FromFile(spritePath);
         }
 
+        public RectF GetSourceRect()
+        {
+            return new RectF(Frame * FrameWidth, 0, FrameWidth, FrameHeight);
+        }
+
+
+        public void Move(int dx, int dy)
+        {
+            X += dx;
+            Y += dy;
+            Frame = (Frame + 1) % 4; // ciclo de 4 frames
+        }
+
     }
 }

@@ -1,0 +1,4 @@
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-android\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-android\build.props
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-android\adb.props
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-android\_CompileBindingJava.FileList.txt
