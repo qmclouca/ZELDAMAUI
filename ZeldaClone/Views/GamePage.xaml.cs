@@ -1,15 +1,19 @@
 using Domain.Entities;
 using Domain.Interfaces;
-using Domain.Services;
+using SkiaSharp;
+using SkiaSharp.Views.Maui;
 
 namespace ZeldaClone.Views;
 
 public partial class GamePage : ContentPage
 {
     private readonly IDatabaseService _db;
-    private readonly Player _player;
-    private readonly GameLoopService _gameLoop;
-
+    private SKBitmap _spriteSheet;
+    private int _frameWidth = 16;
+    private int _frameHeight = 16;
+    private int _currentFrame = 0;
+    private Player _player;
+    
     public GamePage(IDatabaseService db)
     {
         InitializeComponent();
@@ -17,13 +21,16 @@ public partial class GamePage : ContentPage
         _db = db;
         _player = new Player("spritesheet.png");
 
-        var drawable = new GameDrawable(_player);
-        gameView.Drawable = drawable;
+        LoadSpriteSheet();
 
-        _gameLoop = new GameLoopService(gameView, drawable);
-        _gameLoop.Start();
+        this.Dispatcher.StartTimer(TimeSpan.FromMilliseconds(100), () =>
+        {
+            _currentFrame = (_currentFrame + 1) % 4;
+            canvasView.InvalidateSurface();
+            return true;
+        });
 
-        LoadGame();
+        LoadGame();        
     }
 
     private async void LoadGame()
@@ -34,6 +41,27 @@ public partial class GamePage : ContentPage
             _player.X = data.X;
             _player.Y = data.Y;
         }
+    }
+
+    private void LoadSpriteSheet()
+    {       
+        using var stream = FileSystem.OpenAppPackageFileAsync("spritesheet.png").Result;
+        _spriteSheet = SKBitmap.Decode(stream);
+    }
+
+    private void OnCanvasViewPaintSurface(object sender, SKPaintSurfaceEventArgs e)
+    {
+        var canvas = e.Surface.Canvas;
+        canvas.Clear(SKColors.Black);
+
+        if (_spriteSheet == null) return;
+
+        var src = new SKRectI(
+            _currentFrame * _frameWidth, 0,
+            (_currentFrame + 1) * _frameWidth, _frameHeight);
+        var dest = new SKRect(_player.X, _player.Y,
+                       _player.X + 128, _player.Y + 128);
+        canvas.DrawBitmap(_spriteSheet, src, dest);
     }
 
     private async void SaveGame()
@@ -47,5 +75,29 @@ public partial class GamePage : ContentPage
         };
 
         await _db.SavePlayerAsync(playerData);
+    }
+
+    private void MoveUp(object sender, EventArgs e)
+    {
+        _player.Y -= 5;
+        canvasView.InvalidateSurface();
+    }
+
+    private void MoveDown(object sender, EventArgs e)
+    {
+        _player.Y += 5;
+        canvasView.InvalidateSurface();
+    }
+
+    private void MoveLeft(object sender, EventArgs e)
+    {
+        _player.X -= 5;
+        canvasView.InvalidateSurface();
+    }
+
+    private void MoveRight(object sender, EventArgs e)
+    {
+        _player.X += 5;
+        canvasView.InvalidateSurface();
     }
 }

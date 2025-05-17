@@ -1,3 +1,5 @@
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\bin\Debug\net8.0-maccatalyst\Domain.dll
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\bin\Debug\net8.0-maccatalyst\Domain.pdb
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-maccatalyst\actool\_PartialAppManifest.items
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-maccatalyst\actool\_BundleResourceWithLogicalName.items
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-maccatalyst\actool\_ProcessedImageAssetsPath.items
@@ -12,3 +14,7 @@ C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-maccatalys
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-maccatalyst\Domain.AssemblyInfo.cs
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-maccatalyst\Domain.csproj.CoreCompileInputs.cache
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-maccatalyst\Domain.sourcelink.json
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-maccatalyst\Domain.dll
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-maccatalyst\refint\Domain.dll
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-maccatalyst\Domain.pdb
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-maccatalyst\ref\Domain.dll

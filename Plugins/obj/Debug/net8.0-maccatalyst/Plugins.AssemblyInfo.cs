@@ -14,11 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Plugins")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+486e9bb341e8662917a4b9c3458367d01f8957cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+569ad6fc69c67581574905a0c22b89b818d63f36")]
 [assembly: System.Reflection.AssemblyProductAttribute("Plugins")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Plugins")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("MacCatalyst17.2")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("MacCatalyst18.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("MacCatalyst13.1")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

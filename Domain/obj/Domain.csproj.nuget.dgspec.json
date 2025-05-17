@@ -40,11 +40,11 @@
             "targetAlias": "net8.0-android",
             "projectReferences": {}
           },
-          "net8.0-ios17.2": {
+          "net8.0-ios18.0": {
             "targetAlias": "net8.0-ios",
             "projectReferences": {}
           },
-          "net8.0-maccatalyst17.2": {
+          "net8.0-maccatalyst18.0": {
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {}
           },
@@ -70,11 +70,11 @@
           "dependencies": {
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.100, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.100, )"
             }
           },
           "imports": [
@@ -98,16 +98,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         },
-        "net8.0-ios17.2": {
+        "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.100, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.100, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -137,16 +137,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         },
-        "net8.0-maccatalyst17.2": {
+        "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.100, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.100, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -182,11 +182,11 @@
           "dependencies": {
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.100, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.100, )"
             }
           },
           "imports": [

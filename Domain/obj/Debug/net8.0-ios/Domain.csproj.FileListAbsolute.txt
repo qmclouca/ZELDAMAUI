@@ -1,3 +1,5 @@
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\bin\Debug\net8.0-ios\Domain.dll
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\bin\Debug\net8.0-ios\Domain.pdb
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\actool\_PartialAppManifest.items
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\actool\_BundleResourceWithLogicalName.items
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\actool\_ProcessedImageAssetsPath.items
@@ -12,4 +14,7 @@ C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\Domain
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\Domain.AssemblyInfo.cs
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\Domain.csproj.CoreCompileInputs.cache
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\Domain.sourcelink.json
-C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\build-signature\signature
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\Domain.dll
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\refint\Domain.dll
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\Domain.pdb
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Domain\obj\Debug\net8.0-ios\ref\Domain.dll

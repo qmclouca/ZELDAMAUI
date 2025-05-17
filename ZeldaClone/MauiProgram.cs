@@ -1,6 +1,7 @@
 ﻿using Domain.Interfaces;
 using Microsoft.Extensions.Logging;
 using Plugins.SQLite;
+using SkiaSharp.Views.Maui.Controls.Hosting;
 
 namespace ZeldaClone;
 
@@ -11,6 +12,7 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
+			.UseSkiaSharp()
 			.ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

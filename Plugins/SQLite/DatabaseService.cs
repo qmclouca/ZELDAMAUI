@@ -28,9 +28,18 @@ namespace Plugins.SQLite
         public async Task<PlayerData> GetLastPlayerAsync()
         {
             await Init();
-            return await _db.Table<PlayerData>()
+            try
+            {
+                return await _db.Table<PlayerData>()
                 .OrderByDescending(x => x.Id)
                 .FirstOrDefaultAsync();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+            return new PlayerData();
+            
         }
 
         public async Task SavePlayerAsync(PlayerData player)

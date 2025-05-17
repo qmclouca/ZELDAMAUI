@@ -1,3 +1,7 @@
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\bin\Debug\net8.0-ios\Plugins.dll
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\bin\Debug\net8.0-ios\Plugins.pdb
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\bin\Debug\net8.0-ios\Domain.dll
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\bin\Debug\net8.0-ios\Domain.pdb
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\actool\_PartialAppManifest.items
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\actool\_BundleResourceWithLogicalName.items
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\actool\_ProcessedImageAssetsPath.items
@@ -6,3 +10,14 @@ C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\corem
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\coremlc\_ProcessedCoreMLModelsPath.items
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\_ProcessedBundleResourcesPath.items
 C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\_ProcessedContentPath.items
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\Plugins.csproj.AssemblyReference.cache
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\Plugins.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\Plugins.AssemblyInfoInputs.cache
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\Plugins.AssemblyInfo.cs
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\Plugins.csproj.CoreCompileInputs.cache
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\Plugins.sourcelink.json
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\Plugins.csproj.Up2Date
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\Plugins.dll
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\refint\Plugins.dll
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\Plugins.pdb
+C:\Users\qmclo\OneDrive\SENAC_AULAS\ZELDAMAUI\Plugins\obj\Debug\net8.0-ios\ref\Plugins.dll

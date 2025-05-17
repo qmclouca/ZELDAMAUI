@@ -28,13 +28,13 @@ namespace Domain.Services
                 var src = _player.GetSourceRect();
                 var dst = new RectF(_player.X, _player.Y, 32, 32); // tamanho na tela
 
-                canvas.DrawImage(
-    _spriteSheet,
-    (float)src.X, (float)src.Y,           // origem da imagem
-    (float)src.Width, (float)src.Height, // tamanho da parte cortada da sprite
-    _player.X, _player.Y,                 // destino na tela
-    32, 32                                // tamanho de renderização
-);
+//                canvas.DrawImage(
+//    _spriteSheet,
+//    (float)src.X, (float)src.Y,           // origem da imagem
+//    (float)src.Width, (float)src.Height, // tamanho da parte cortada da sprite
+//    _player.X, _player.Y,                 // destino na tela
+//    32, 32                                // tamanho de renderização
+//);
             }
         }
 
