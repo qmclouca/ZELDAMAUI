@@ -25,10 +25,10 @@
                 <ColumnDefinition Width="Auto" />
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
-            <Button Grid.Row="0" Grid.Column="1" Text="↑" Clicked="MoveUp"/>
-            <Button Grid.Row="1" Grid.Column="0" Text="←" Clicked="MoveLeft"/>
-            <Button Grid.Row="1" Grid.Column="2" Text="→" Clicked="MoveRight"/>
-            <Button Grid.Row="2" Grid.Column="1" Text="↓" Clicked="MoveDown"/>
+            <Button Grid.Row="0" Grid.Column="1" Text="↑" Pressed="MoveUp_Pressed" Released="Move_Released"/>
+            <Button Grid.Row="1" Grid.Column="0" Text="←" Pressed="MoveLeft_Pressed" Released="Move_Released"/>
+            <Button Grid.Row="1" Grid.Column="2" Text="→" Pressed="MoveRight_Pressed" Released="Move_Released"/>
+            <Button Grid.Row="2" Grid.Column="1" Text="↓" Pressed="MoveDown_Pressed" Released="Move_Released"/>
         </Grid>
     </Grid>
 </ContentPage>

@@ -41,6 +41,9 @@
   <ItemGroup>
     <MauiAsset Include="Resources\Images\spritesheet.png" LogicalName="spritesheet.png" />
   </ItemGroup>
+  <ItemGroup>
+    <MauiAsset Include="Resources\Images\level1.png" LogicalName="level1.png"/>
+  </ItemGroup>
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
