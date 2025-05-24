@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nn27nfETavJt7egY41OetvkcC9YU3aRAhPyomTSU4ngg45LARAzFv4hND1J5Pc+wgPeuNo5fLB0HuRUtUlQotw==",
+  "dgSpecHash": "t0Uo7IdF+9H6DphMZ0uSmvV9c+FqcEc7zsopWD72oJZEoAtOIT3lcWY+Q2a7lSMYz/cuslUwtltESL/Sowg4Ug==",
   "success": true,
   "projectFilePath": "C:\\Users\\qmclo\\OneDrive\\SENAC_AULAS\\ZELDAMAUI\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,12 @@
     "C:\\Users\\qmclo\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.6\\microsoft.net.illink.tasks.8.0.6.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\qmclo\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240802000\\microsoft.windowsappsdk.1.5.240802000.nupkg.sha512",
+    "C:\\Users\\qmclo\\.nuget\\packages\\skiasharp\\2.88.6\\skiasharp.2.88.6.nupkg.sha512",
+    "C:\\Users\\qmclo\\.nuget\\packages\\skiasharp.nativeassets.android\\2.88.6\\skiasharp.nativeassets.android.2.88.6.nupkg.sha512",
+    "C:\\Users\\qmclo\\.nuget\\packages\\skiasharp.nativeassets.ios\\2.88.6\\skiasharp.nativeassets.ios.2.88.6.nupkg.sha512",
+    "C:\\Users\\qmclo\\.nuget\\packages\\skiasharp.nativeassets.maccatalyst\\2.88.6\\skiasharp.nativeassets.maccatalyst.2.88.6.nupkg.sha512",
+    "C:\\Users\\qmclo\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.6\\skiasharp.nativeassets.macos.2.88.6.nupkg.sha512",
+    "C:\\Users\\qmclo\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.6\\skiasharp.nativeassets.win32.2.88.6.nupkg.sha512",
     "C:\\Users\\qmclo\\.nuget\\packages\\xamarin.android.glide\\4.15.1.2\\xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "C:\\Users\\qmclo\\.nuget\\packages\\xamarin.android.glide.annotations\\4.15.1.2\\xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",
     "C:\\Users\\qmclo\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.15.1.2\\xamarin.android.glide.disklrucache.4.15.1.2.nupkg.sha512",
