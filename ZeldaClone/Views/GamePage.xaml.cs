@@ -1,5 +1,6 @@
 using Domain.Entities;
 using Domain.Interfaces;
+using Domain.Util;
 using SkiaSharp;
 using SkiaSharp.Views.Maui;
 using System.Timers;
@@ -82,19 +83,40 @@ public partial class GamePage : ContentPage
     {
         var canvas = e.Surface.Canvas;
         canvas.Clear(SKColors.Black);
-        if (_levelBitmap != null)
+        int tileWidth = 16;
+        int tileHeight = 16;
+        int renderSize = 64;
+        TilePalette tilePalette = new TilePalette();
+        if (_spriteSheet == null || _levelBitmap == null) return;
+
+        for (int y=0; y < _levelBitmap.Height; y++)
         {
-            canvas.DrawBitmap(_levelBitmap, new SKRect(0, 0, e.Info.Width, e.Info.Height));
+            for (int x= 0; x < _levelBitmap.Width; x++)
+            {
+                var color = _levelBitmap.GetPixel(x, y);
+                if (tilePalette._colorToTileCoords.TryGetValue(color, out var coords))
+                {
+                    var(tileX, tileY) = coords;
+                    var src = new SKRectI(
+                            tileX * tileWidth, tileY * tileHeight, (tileX+1) * tileWidth, (tileY + 1) * tileHeight
+                        );
+                    var dest = new SKRectI(
+                               x * renderSize, y * renderSize, (x + 1) 
+                               * renderSize, (y + 1) * renderSize                                           
+                               );
+                    canvas.DrawBitmap(_spriteSheet, src, dest);
+
+                }
+            }
         }
-
-        if (_spriteSheet == null) return;
-
-        var src = new SKRectI(
-            _currentFrame * _frameWidth, 0,
-            (_currentFrame + 1) * _frameWidth, _frameHeight);
-        var dest = new SKRect(_player.X, _player.Y,
-                       _player.X + 64, _player.Y + 64);
-        canvas.DrawBitmap(_spriteSheet, src, dest);
+        var playerFrame = _currentFrame % 4;
+        var playerSrc = new SKRectI(
+            playerFrame * _frameWidth, 1 * tileHeight, (playerFrame + 1) * _frameWidth,2* _frameHeight
+            );
+        var playerDest = new SKRect(
+            _player.X, _player.Y, _player.X + renderSize, _player.Y + renderSize
+            );
+        canvas.DrawBitmap(_spriteSheet, playerSrc, playerDest);
     }
 
     private async void SaveGame()
