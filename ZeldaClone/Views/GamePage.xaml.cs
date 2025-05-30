@@ -4,6 +4,7 @@ using Domain.Util;
 using SkiaSharp;
 using SkiaSharp.Views.Maui;
 using System.Timers;
+using Microsoft.Maui.Devices.Sensors;
 
 namespace ZeldaClone.Views;
 
@@ -34,8 +35,35 @@ public partial class GamePage : ContentPage
     }
     private async void LoadResources() 
     {
+        //Accelerometer.ReadingChanged += Accelerometer_ReadingChanged;
+        //Accelerometer.Start(SensorSpeed.Game);
         await LoadMap();
         LoadSpriteSheet();
+    }
+
+    private void Accelerometer_ReadingChanged(object sender, AccelerometerChangedEventArgs e)
+    {
+        var x = e.Reading.Acceleration.X;
+        var y = e.Reading.Acceleration.Y;
+        var z = e.Reading.Acceleration.Z;
+
+        double speed = 5;
+
+        MainThread.BeginInvokeOnMainThread(() =>
+        {
+            _player.X += (int)(-x*speed);
+            _player.Y += (int)(y*speed);
+
+            if (Math.Abs(x) > Math.Abs(y))
+                _player.Direction = x > 0 ? DirectionEnum.Left : DirectionEnum.Right;
+            else
+                _player.Direction = y > 0 ? DirectionEnum.Up : DirectionEnum.Down;
+            if (Math.Abs(x) > 0.1 || Math.Abs(y) > 0.1)
+            {
+                _player.AnimationFrame = (_player.AnimationFrame + 1) % _player.FrameCont;
+                canvasView.InvalidateSurface();
+            }            
+        });
     }
 
     private void OnMoveTimerElapsed(object sender, ElapsedEventArgs e)
@@ -51,11 +79,25 @@ public partial class GamePage : ContentPage
     {
         switch (Direction)
         {
-            case "down": _player.Y += _moveDelta; break;
-            case "up": _player.Y -= _moveDelta; break;
-            case "left": _player.X -= _moveDelta; break;
-            case "right": _player.X += _moveDelta; break;
+            case "down": 
+                _player.Y += _moveDelta;
+                _player.Direction = DirectionEnum.Down;
+                break;
+            case "up": 
+                _player.Y -= _moveDelta;
+                _player.Direction = DirectionEnum.Up;
+                break;
+            case "left": 
+                _player.X -= _moveDelta; 
+                _player.Direction = DirectionEnum.Left;
+                break;
+            case "right": 
+                _player.X += _moveDelta; 
+                _player.Direction = DirectionEnum.Right;
+                break;
         }
+
+        _player.AnimationFrame = (_player.AnimationFrame + 1) % _player.FrameCont;
     }
     private async void LoadGame()
     {
@@ -109,9 +151,10 @@ public partial class GamePage : ContentPage
                 }
             }
         }
-        var playerFrame = _currentFrame % 4;
+        var (fx,fy) = _player.GetCurrentFrameCoords();
+
         var playerSrc = new SKRectI(
-            playerFrame * _frameWidth, 1 * tileHeight, (playerFrame + 1) * _frameWidth,2* _frameHeight
+            fx * _frameWidth, fy * _frameHeight, (fx + 1) * _frameWidth, (fy + 1) * _frameHeight
             );
         var playerDest = new SKRect(
             _player.X, _player.Y, _player.X + renderSize, _player.Y + renderSize

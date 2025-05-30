@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domain.Util;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,9 @@ namespace Domain.Entities
 {
     public class Player
     {
+        public DirectionEnum Direction { get; set; } = DirectionEnum.Down;
+        public int AnimationFrame { get; set; } = 0;
+        public int FrameCont => 4;
         public int X { get; set; } = 0;
         public int Y { get; set; } = 0;
         public int Frame { get; set; } = 0;
@@ -30,6 +34,11 @@ namespace Domain.Entities
             X += dx;
             Y += dy;
             Frame = (Frame + 1) % 4; // ciclo de 4 frames
+        }
+
+        public (int FrameX, int FrameY) GetCurrentFrameCoords()
+        {
+            return (2 + AnimationFrame, (int)Direction);
         }
 
     }
